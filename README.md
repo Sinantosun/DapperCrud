@@ -6,45 +6,44 @@ Entity Framework gibi güçlü ORM araçları yaygın olarak kullanılsa da, baz
 
 Dapper, minimal yapısı sayesinde:
 
-⚡ Yüksek performans sunar
-🧠 SQL üzerinde tam kontrol sağlar
-🧩 Mikroservis ve CQRS mimarilerinde mükemmel çalışır
-📌 Bu projede neler var?
+- Yüksek performans sunar
+- SQL üzerinde tam kontrol sağlar
+- Mikroservis ve CQRS mimarilerinde mükemmel çalışır
+- Bu projede neler var?
 
 Bu repoda, Dapper kullanarak katmanlı bir .NET Core uygulaması geliştirdim. İçerikte:
 
-✔️ Dapper entegrasyonu
-✔️ AppDbContext yapısı
-✔️ DTO kullanımı
-✔️ Service katmanı ile CRUD operasyonları
-✔️ Parameterized query ile güvenli veri erişimi
-✔️ Controller üzerinden API implementasyonu
+- Dapper entegrasyonu
+- AppDbContext yapısı
+- DTO kullanımı
+- Service katmanı ile CRUD operasyonları
+- Parameterized query ile güvenli veri erişimi
+- Controller üzerinden API implementasyonu
 
 yer almaktadır.
 
-⚖️ Dapper vs Entity Framework
+# Dapper vs Entity Framework
 
 Gerçek dünyada çoğu zaman seçim “ya o ya bu” değildir.
 
-👉 En doğru yaklaşım genellikle:
+# En doğru yaklaşım genellikle:
 
-Entity Framework → CRUD & hızlı geliştirme
-Dapper → Performans kritik ve kompleks sorgular
+- Entity Framework → CRUD & hızlı geliştirme
+- Dapper → Performans kritik ve kompleks sorgular
 
 Bu projede de bu yaklaşım temel alınmıştır.
 
-🎯 Ne zaman Dapper kullanmalısın?
-Performans kritik sistemlerde
-Büyük veri setleriyle çalışırken
-Karmaşık SQL sorgularında
-Mikroservis mimarilerinde
-Read-heavy (CQRS) yapılarda
-🔐 Güvenlik Notu
+# Ne zaman Dapper kullanmalısın?
+- Performans kritik sistemlerde
+- Büyük veri setleriyle çalışırken
+- Karmaşık SQL sorgularında
+- Mikroservis mimarilerinde
+- Read-heavy (CQRS) yapılarda
 
 Dapper kullanırken en önemli konu:
 
-❌ String birleştirme ile SQL yazmak
-✔️ Parametre kullanmak (DynamicParameters)
+-  String birleştirme ile SQL yazmak
+-  Parametre kullanmak (DynamicParameters)
 
 🔗 Detaylı anlatım ve kaynak kod
 
