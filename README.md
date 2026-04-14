@@ -26,7 +26,7 @@ yer almaktadır.
 
 Gerçek dünyada çoğu zaman seçim “ya o ya bu” değildir.
 
-# En doğru yaklaşım genellikle:
+En doğru yaklaşım genellikle:
 
 - Entity Framework → CRUD & hızlı geliştirme
 - Dapper → Performans kritik ve kompleks sorgular
